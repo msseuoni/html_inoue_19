@@ -1,230 +1,321 @@
 <!DOCTYPE html>
 <html lang="ja">
-<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<style>
+  body {
+    background-color: #ffffff;
+  }
+</style>
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>チーズアカデミー</title>
+  <title>カフェナビ</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
 </head>
-<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
 <body>
-  <!-- この中に記述していく -->
-  <!-- ここから下にコードを書く -->
+  <div class="wrap">
 
-<div class="wrap">
-  <header class="header">
-    <img src="./img/header_logo.png">
-    <a href="#naviabout">ABOUT</a>
-    <a href="#navicourse">COURSE</a>
-    <a href="#navinews">NEWS</a>
-    <a href="#naviaccess">ACCESS</a>
-    <a href="#navicontact">CONTACT</a>
-  </header>
-  <div class="content">
+    <div class="content">
 
-    <div class="top">
-      <img class="topphoto" src="./img/mainbg.png" alt="">
-      <div class="cheese01">
-        <div class="cheese02">セカイを変えるチーズを作ろう</div>
-        <div class="cheese03">チーズ職人養成学校「チーズアカデミーTOKYO」</div>
-      </div>
-    </div>
-    
-    <div class="About">
-      <div class="About01" id="naviabout">ABOUT</div>
-      <div class="About02">チーズアカデミーについて</div>
-      <div class="About03">
-        チーズアカデミーは、チーズ職人養成学校です。
-      </div>
-      <div class="explain">チーズの素晴らしさを、自給自足を通じて、できるだけ多くの人に知っていただきたい。</div>
-      <div class="About04">そして、食卓にはいつもチーズがあった、あの頃の当たり前をこの手で取り戻したい。</div>
-      <div class="About05">そんな思いから、チーズ職人養成学校「チーズアカデミーTOKYO」は歩みを始めています。</div>
-      <div class="explain">卒業後、チーズ自給自足のバックアップはもちろんのこと、</div>
-      <div class="About06">チーズ職人への就職・転職もサポートします。</div>
-    </div>
-    
-    <div class="photo">
-      <img class="photo01" src="./img/about_04.jpg" alt="">
-      <img class="photo01" src="./img/about_03.jpg" alt="">
-      <img class="photo01" src="./img/about_02.jpg" alt="">
-      <img class="photo01" src="./img/about_01.jpg" alt="">
-    </div>
-      
-    <div class="course">
-      <div class="course01" id="navicourse">COURSE</div>
-      <div class="explain">未経験からでもスタートができるよう、カリキュラムは多くの専門家や</div>
-      <div class="explain">現役チーズ職人のアドバイスのもと、作られました</div>
-    </div>
-    
-    <div class="farm">
-      <div>
-        <img class="farmphoto" src="./img/course_01.jpg" alt="">
-      </div>
-      <div class="farmsentence">
-        <div class="farm01">本格的な農園を使った実地研修</div>
-        <div class="explain">チーズアカデミーでは、本格的な農園を使った実地研修を</div>
-        <div class="explain">行うことができます。プロとして活躍するチーズ職人も</div>
-        <div class="explain">使用するような、広大で環境も整った農園を余すところ</div>
-        <div class="explain">なく使い、卒業時には本格的なチーズを自分の力で作れる</div>
-        <div class="explain">実践力の養成を目指します。</div>
-      </div>
-    </div>
-
-    <div class="class">
-      <div class="classsentence">
-        <div class="class01">必要な知識もしっかりと取得</div>
-        <div class="explain">チーズ作りには、しっかりとした食に関する知識が</div>
-        <div class="explain">欠かせません。チーズアカデミーでは、一流講師陣による、</div>
-        <div class="explain">チーズ作りに必要ないろはを余すところなく学べます。</div>
-        <div class="explain">チーズそのものでなく、栄養学全般を学ぶことも</div>
-        <div class="explain">可能ですので、チーズ以外への展開も夢ではないでしょう。</div>
-      </div>
-      <img class="classphoto" src="./img/course_02.jpg" alt="">
-    </div>
-    
-    <div class="output">
-      <img class="outputphoto" src="./img/course_03.jpg" alt="">
-      <div class="outputsentence">
-        <div class="output01">卒業制作はティスティング審査あり</div>
-        <div class="explain">チーズアカデミーでは最後の2ヶ月間で卒業制作を実施。</div>
-        <div class="explain">卒業制作として、チーズ作りを実際に行います。卒業後、</div>
-        <div class="explain">一般参加によるティスティング審査があるため、作り手の</div>
-        <div class="explain">目線だけでなく、消費者の目線から、卒業制作作品としての</div>
-        <div class="explain">チーズを、しっかりと評価いただくことができます。</div>
-      </div>
-    </div>
-
-    <div class="news">
-      <div class="news01" id="navinews">NEWS</div>
-      <div class="news02">ニュース</div>
-      <div class="newscontents">
-        <div class="newscontents01">
-          <img class="newsphoto" src="./img/news_img.jpg" alt="">
-          <div class="newsday">2016/11/18</div>
-          <div class="explain">チーズアカデミー卒業生のコスゲさんによる</div>
-          <div class="explain">チーズだけをふんだんに使用した話題のピザ屋</div>
-          <div class="explain">「Kosuge Pizza」が渋谷でオープンしました！</div>
+      <div class="top">
+        <div class="top01">
+          <div class="top03">作業に最適なカフェが簡単に見つかるサイト</div>
+          <div class="top02">カフェナビ</div>
         </div>
-        <div class="newscontents02">
-          <img class="newsphoto" src="./img/news_img.jpg" alt="">
-          <div class="newsday">2016/11/18</div>
-          <div class="explain">チーズアカデミー卒業生のコスゲさんによる</div>
-          <div class="explain">チーズだけをふんだんに使用した話題のピザ屋</div>
-          <div class="explain">「Kosuge Pizza」が渋谷でオープンしました！</div>
-        </div>
-        <div class="newscontents01">
-          <img class="newsphoto" src="./img/news_img.jpg" alt="">
-          <div class="newsday">2016/11/18</div>
-          <div class="explain">チーズアカデミー卒業生のコスゲさんによる</div>
-          <div class="explain">チーズだけをふんだんに使用した話題のピザ屋</div>
-          <div class="explain">「Kosuge Pizza」が渋谷でオープンしました！</div>
+
+        <header class="header">
+          <a href="#naviabout">カフェナビとは</a>
+          <a href="#naviserach">キーワード検索</a>
+          <a href="#naviareasearch">エリアから探す</a>
+          <a href="#navinews">新着情報</a>
+          <a href="#naviboard">掲示板</a>
+        </header>
+      </div>
+
+
+      <div class="About">
+        <div class="About01" id="naviabout">カフェナビとは</div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <img class="coffeepcphoto" src="./img/979.png" alt="">
+          <div class="col">
+            <ul class="coffee01">
+              <li>カフェで作業をしたいが、作業に適した良いカフェが見つからない。。</li>
+              <li>そんなことはありませんか？</li>
+              <li>　</li>
+            </ul>
+            <ul class="coffee02">
+              <li>カフェナビを使えば作業に適したカフェを簡単に見つけられます！</li>
+              <li>　</li>
+              <li>カフェナビの特徴：</li>
+              <li>・高い操作性で、スピーディな検索が可能</li>
+              <li>・チェーン店以外のこだわりカフェ多数掲載。新たな出会いがある</li>
+              <li>・高い情報更新頻度と品質。最新の情報を知れる</li>
+            </ul>
+          </div>
         </div>
       </div>
+
+
+      <div class="search" id="naviserach">キーワードから探す</div>
+      <form class="search-form" action="/search" method="GET">
+        <input type="text" name="query" placeholder="検索キーワードを入力してください">
+        <button type="submit">検索</button>
+      </form>
+
+      <div class="areasearch" id="naviareasearch">エリアから探す</div>
+      <table class="arealist">
+        <tbody>
+          <tr>
+            <td><a href="chiyodaku.html">千代田区</a></td>
+            <td><a href="https://example.com/chuo">中央区</a></td>
+            <td><a href="https://example.com/minato">港区</a></td>
+            <td><a href="https://example.com/shinjuku">新宿区</a></td>
+            <td><a href="https://example.com/bunkyo">文京区</a></td>
+            <td><a href="https://example.com/taito">台東区</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://example.com/sumida">墨田区</a></td>
+            <td><a href="https://example.com/koto">江東区</a></td>
+            <td><a href="https://example.com/shinagawa">品川区</a></td>
+            <td><a href="https://example.com/meguro">目黒区</a></td>
+            <td><a href="https://example.com/ota">大田区</a></td>
+            <td><a href="https://example.com/setagaya">世田谷区</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://example.com/shibuya">渋谷区</a></td>
+            <td><a href="https://example.com/nakano">中野区</a></td>
+            <td><a href="https://example.com/suginami">杉並区</a></td>
+            <td><a href="https://example.com/toshima">豊島区</a></td>
+            <td><a href="https://example.com/kita">北区</a></td>
+            <td><a href="https://example.com/arakawa">荒川区</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://example.com/itabashi">板橋区</a></td>
+            <td><a href="https://example.com/nerima">練馬区</a></td>
+            <td><a href="https://example.com/adachi">足立区</a></td>
+            <td><a href="https://example.com/katsushika">葛飾区</a></td>
+            <td><a href="https://example.com/edogawa">江戸川区</a></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
-    <div class="more">More</div>
+    <div class="conditionalsearch" id="naviconditionalsearch">条件から探す</div>
+    <div class="conditionliststyle">
+      <table class="conditionlist">
+        <tbody>
+          <tr>
+            <td onclick="toggleCondition(this)">Wifiあり</td>
+            <td onclick="toggleCondition(this)">電源あり</td>
+            <td onclick="toggleCondition(this)">席数10以上</td>
+            <td onclick="toggleCondition(this)">フードあり</td>
+            <td onclick="toggleCondition(this)">ペットOK</td>
+            <td onclick="toggleCondition(this)">デカフェあり</td>
+          </tr>
+        </tbody>
+      </table>
 
-    <div class="access">
-      <div class="access01" id="naviaccess">ACCESS</div>
-      <div class="access02">会社情報</div>
-      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12965.24330280838!2d139.68454291772693!3d35.66934782467445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c9fa9e2e881%3A0x35396adb5ba7ce03!2z44K444O844K644Ki44Kr44OH44Of44O85p2x5Lqs!5e0!3m2!1sja!2sjp!4v1684649371364!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <div class="contactdetail">
-        <div class="contactdetail01">
-          <div class="contactdetail03">学校名</div>
-          <div class="contactdetail03">事務所所在地</div>
-          <div class="contactdetail03">TEL</div>
-          <div class="contactdetail03">FAX</div>
-          <div class="contactdetail03">MAIL</div>
-        </div>
-        <div class="contactdetail02">
-          <div class="contactdetail03">チーズアカデミーTOKYO</div>
-          <div class="contactdetail03">〒107-0061東京都港区北青山3-5-6 青朋ビル2F</div>
-          <div class="contactdetail03">03-5413-5045</div>
-          <div class="contactdetail03">03-5413-5046</div>
-          <div class="contactdetail03">dummy@cheeseacademy.tokyo</div>
-        </div>
+      <div class="search-button">
+        <button onclick="search()">検索</button>
       </div>
     </div>
 
-    <div class="contact">
-      <div class="contact01" id="navicontact">CONTACT</div>
-      <div class="contact02">説明会お申し込み・お問い合わせ</div>
-      <div class="explain">ぜひ1度、足を運んでみませんか。説明会は随時開催中。</div>
-      <div class="contact03">その他、お問い合わせもお気軽にどうぞ。お待ちしております。</div>
-      <div class="explain">※チーズアカデミーは実際には存在しません。</div>
-      <div class="contact04">間違っても問い合わせしないようお願いいたします。</div>
+
+    <div class="news01" id="navinews">新着情報</div>
+    <div class="image-set">
+      <a href="cafe_detail01.html">
+        <div class="news">
+          <img src="./img/cafe01.jpg">
+          <p>XXX Coffee</p>
+          <p>2023/07/02</p>
+          <p>中目黒</p>
+          <p>月-土/10:00-21:00</p>
+          <p>Wi-Fi○/電源○/座席数20</p>
+        </div>
+      </a>
+      <a href="cafe_detail02.html">
+        <div class="news">
+          <img src="./img/cafe02.jpeg">
+          <p>XXX Coffee</p>
+          <p>2023/07/01</p>
+          <p>恵比寿</p>
+          <p>月-土/8:00-17:00</p>
+          <p>Wi-Fi○/電源×/座席数10</p>
+        </div>
+      </a>
+      <a href="cafe_detail03.html">
+        <div class="news">
+          <img src="./img/cafe03.jpg">
+          <p>XXX Coffee</p>
+          <p>2023/06/21</p>
+          <p>銀座</p>
+          <p>月-金/10:00-18:00</p>
+          <p>Wi-Fi○/電源○/座席数30</p>
+        </div>
+      </a>
+      <a href="cafe_detail04.html">
+        <div class="news">
+          <img src="./img/cafe04.jpg">
+          <p>XXX Coffee</p>
+          <p>2023/05/25</p>
+          <p>有楽町</p>
+          <p>月-土/10:00-20:00</p>
+          <p>Wi-Fi○/電源○/座席数5</p>
+        </div>
+      </a>
+      <a href="cafe_detail05.html">
+        <div class="news">
+          <img src="./img/cafe05.jpg">
+          <p>XXX Coffee</p>
+          <p>2023/05/13</p>
+          <p>芝浦</p>
+          <p>月-土/9:00-17:30</p>
+          <p>Wi-Fi○/電源○/座席数7</p>
+        </div>
+      </a>
+      <a href="cafe_detail06.html">
+        <div class="news">
+          <img src="./img/cafe06.jpg">
+          <p>XXX Coffee</p>
+          <p>2023/04/14</p>
+          <p>蔵前</p>
+          <p>月-土/7:00-20:00</p>
+          <p>Wi-Fi○/電源○/座席数15</p>
+        </div>
+      </a>
     </div>
+
+    <div class="board">
+      <div class="board01" id="naviboard">掲示板</div>
+      <!-- <div class="board02">役立ち情報をシェアしましょう</div> -->
+    </div>
+
+    <form id="message-form">
+      <input type="text" id="name-input" placeholder="名前" required>
+      <textarea id="message-input" placeholder="メッセージ" required></textarea>
+      <button type="submit">投稿する</button>
+    </form>
+
+    <div id="messages">
+      <!-- メッセージが表示される領域 -->
+    </div>
+
   </div>
-</div>
-  
-<div class="toiawase">
-  <div>
-    <div class="toiawasedetail">
-      <div class="toiawasedetail01">
-        <div class="toiawasedetail03">名前</div>
-        <div class="toiawasedetail03">カナ</div>
-        <div class="toiawasedetail03">チーズアカデミーを<br>知ったきっかけ</div>
-        <div class="toiawasedetail04">志望動機<br><br><br></div>
-        <div class="toiawasedetail05">詳細</div>
-      </div>
-
-      <div class="toiawasedetail02">
-      
-        <div class="toiawasedetail06">
-          <input type="text">
-        </div>
-      
-        <div class="toiawasedetail06">
-          <input type="text">
-        </div>
-      
-        <div class="toiawasedetail06">
-          <form method="post">
-            <div class="choice">
-              <select name="prefecture">
-              <option value="">選択してください</option>
-              <option value="google検索">google検索</option>
-              <option value="SNS">SNS</option>
-              <option value="紹介">紹介</option>
-              <option value="たまたま通りかかった">たまたま通りかかった</option>
-              <option value="その他">その他</option>
-              </select>
-            </div>
-          </form>
-        </div>
-        <div class="toiawasedetail07">
-          <div>
-            <input type="checkbox">起業をしたい
-          </div> 
-          <div>
-            <input type="checkbox">チーズ系企業に就職・転職したい
-          </div>
-          <div>
-            <input type="checkbox">チーズと関わる仕事をしており、仕事に生かしたい
-          </div>
-          <div>
-            <input type="checkbox">チーズの教養を身につけたい
-          </div>
-        </div>
-        <div class="toiawasedetail08">
-          <input type="text">
-        </div>
-      </div>
-  </div>
-  <div class="send">送信</div>
-</div>
-  <!-- ここから上にコードを書く -->
-  <!-- この中に記述していく -->
 
   <div id="footer">
-    copyrights 2016 Cheeese Academy Tokyo All RIghts Reserved.
+    copyrights 2023 msseuoni.corp All RIghts Reserved.
   </div>
-  
+
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="js/main.js"></script>
+  <script>
+    // 条件付き検索のコード
+    function toggleCondition(element) {
+      element.classList.toggle('selected');
+    }
+
+    // エリアがマウスオーバーされたときの処理
+    $(".news").mouseover(function () {
+      $(this).addClass("active");
+    });
+
+    // エリアがマウスから外れたときの処理
+    $(".news").mouseout(function () {
+      $(this).removeClass("active");
+    });
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      // メッセージの配列
+      var messages = [];
+      var messageId = 0; // コメントに割り当てる一意のID
+
+      // フォームが送信されたときの処理
+      $("#message-form").submit(function (event) {
+        event.preventDefault();
+
+        // フォームの値を取得
+        var name = $("#name-input").val();
+        var message = $("#message-input").val();
+
+        // 投稿時間を取得
+        var currentTime = new Date().toLocaleString();
+
+        // メッセージオブジェクトを作成
+        var newMessage = {
+          id: messageId,
+          name: name,
+          message: message,
+          time: currentTime
+        };
+
+        // メッセージを配列に追加
+        messages.push(newMessage);
+
+        // メッセージを表示する
+        displayMessages();
+
+        // IDをインクリメント
+        messageId++;
+
+        // 入力項目をクリアする
+        $("#name-input").val("");
+        $("#message-input").val("");
+      });
+
+      // メッセージを表示する関数
+      function displayMessages() {
+        // メッセージを表示する領域を取得
+        var messageArea = $("#messages");
+
+        // 表示をクリア
+        messageArea.empty();
+
+        // メッセージを表示
+        for (var i = 0; i < messages.length; i++) {
+          var message = messages[i];
+
+          var messageElement = $("<div>");
+          var nameElement = $("<strong>").text(message.name + ": ");
+          var textElement = $("<span>").text(message.message);
+          var timeElement = $("<span>").text(" [" + message.time + "]");
+          var deleteButton = $("<button>").text("削除");
+          deleteButton.attr("data-id", message.id); // コメントのIDを削除ボタンに追加
+
+          messageElement.append(nameElement);
+          messageElement.append(textElement);
+          messageElement.append(timeElement);
+          messageElement.append(deleteButton);
+
+          messageArea.append(messageElement);
+        }
+      }
+
+      // 削除ボタンがクリックされたときの処理
+      $("#messages").on("click", "button", function () {
+        var id = $(this).data("id"); // 削除ボタンからコメントのIDを取得
+        var index = messages.findIndex(function (message) {
+          return message.id === id;
+        });
+
+        if (index !== -1) {
+          messages.splice(index, 1); // 配列からメッセージを削除
+          displayMessages(); // メッセージを再表示
+        }
+      });
+    });</script>
+
+
 </body>
+
 </html>
